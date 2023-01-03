@@ -10,7 +10,7 @@ Issue:
 5) Latency(Delay) & Jitter
 6) Packet Loss
 
-categories QOS / QOS Model:
+## categories QOS / QOS Model:
 not strict - best effort
 |
 V
@@ -19,7 +19,16 @@ strict - IntServ (Integrted services) RSVP protocol - reserve bandwidth along al
 V
 less strict - diffserv ( differentiate services) - tagging/ DSCP marking 
 
+## Method Of Classifying:
 ![image](https://user-images.githubusercontent.com/83261924/210411436-fc79c8a4-90d3-48e9-827e-618665249d28.png)
+COS: Class of Service - layer2
+TOS: Types of Service - layer3 (IPP - old / DSCP - new)
+Network Based Application Recognition 2 (NBAR) - NBAR Application Files define traits of application(application signature)
+
+## Method of Marking:
+![image](https://user-images.githubusercontent.com/83261924/210452009-ca80c520-8f35-4e6e-a0b7-f9b7d7b22086.png)
+
+
 
 QOS Mechanisms:
 1) classification and marking
