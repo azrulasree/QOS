@@ -1,15 +1,25 @@
 # QOS
 Dedicated for learning QOS to optimize bandwidth for certain application in current infrastructure.
+To prevent Tail Drop -> where all incoming packet are dropped when memory buffer are full.
 
 Issue:
 1) Speed mismatch.
 2) Aggregation point.
 3) Periodic congestion.
+4) Lack of bandwidth
+5) Latency(Delay) & Jitter
+6) Packet Loss
 
-categories QOS:
+categories QOS / QOS Model:
 not strict - best effort
-less strict - diffserv ( differentiate services)
-strict - IntServ (Integrted services) RSVP - reservation.
+|
+V
+strict - IntServ (Integrted services) RSVP protocol - reserve bandwidth along all network.
+|
+V
+less strict - diffserv ( differentiate services) - tagging/ DSCP marking 
+
+![image](https://user-images.githubusercontent.com/83261924/210411436-fc79c8a4-90d3-48e9-827e-618665249d28.png)
 
 QOS Mechanisms:
 1) classification and marking
